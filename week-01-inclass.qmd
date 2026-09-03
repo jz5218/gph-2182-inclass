@@ -1,7 +1,7 @@
 ---
 title: "Week 1 In-Class Exercise: Welcome & Modern Toolkit"
 subtitle: "GPH-GU 2182 · Statistical Programming in R"
-author: "YOUR NAME & PARTNER NAME"
+author: "Jiaxu Zhang & Yuran Huang"
 date: "September 2, 2026"
 format:
   html:
@@ -35,6 +35,16 @@ $$\text{BMI} = \frac{\text{weight in kg}}{(\text{height in meters})^2}$$
 
 ```{r bmi-calculations}
 # Write your calculations below:
+Weight_A = 70
+Weight_B = 85
+Weight_C = 58
+Height_A = 1.75
+Height_B = 1.80
+Height_C = 1.62
+weight = c(Weight_A, Weight_B, Weight_C)
+height = c(Height_A, Height_B, Height_C)
+bmi = weight/ (height ^ 2)
+round(bmi, digits = 2)
 
 ```
 
